@@ -3,6 +3,6 @@ def map(array)
   i = 0
   new_array = []
   while i < array.count do
-    yield(array[i])
+    new_array << yield(array[i])
   end
 end
