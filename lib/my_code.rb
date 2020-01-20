@@ -8,3 +8,10 @@ def map(array)
   end
   return new_array
 end
+
+def reduce(array, starting_point = 0)
+  i = 0
+  total = 0
+  while i < array.count do
+    total = total + array[i]
+  end
