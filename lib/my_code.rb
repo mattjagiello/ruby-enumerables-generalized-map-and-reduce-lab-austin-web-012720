@@ -5,6 +5,4 @@ def map(array)
   while i < array.count do
     yield(array[i])
   end
-  yield(new_array)
-  return array
 end
