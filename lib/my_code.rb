@@ -1,9 +1,10 @@
 # Your Code Here
 def map(array)
   i = 0
+  new_array = []
   while i < array.count do
-    i +=
+    new_array << array[i]
   end
-  yield(array)
+  yield(new_array)
   return array
 end
