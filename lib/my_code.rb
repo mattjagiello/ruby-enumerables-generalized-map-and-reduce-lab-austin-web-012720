@@ -15,3 +15,5 @@ def reduce(array, starting_point = 0)
   while i < array.count do
     yield(total) = total + array[i]
   end
+  return total
+end
